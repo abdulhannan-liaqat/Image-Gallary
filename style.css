@@ -104,13 +104,15 @@ padding:10px;
 width: 290px;
 border-radius:12px;
 height: 300px;
-margin-top: 10px;
+margin-top: 5px;
 }
 /* .card:hover{
     background-color: #e3baba;
 } */
 
-
+.card-title{
+    margin-top: 6px;
+}
 .card:hover{
     background-color: #0a974cc8;
     
