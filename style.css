@@ -1,3 +1,7 @@
+:root{
+    --dark: rgb(3, 3, 71);
+    --dull: #1b8605c8;
+}
 *{
 
 margin:0;
@@ -7,12 +11,15 @@ box-sizing:border-box;
 }
 
 header{
-color: #000000;
-background:sandybrown;
+color: var(--dark);
+background: var(--dull);
 padding:20px;
 height: 70px;
 max-width: 1300px;
 margin-bottom: 30px;
+font-style: italic;
+font-weight: bold;
+text-align: center;
 }
 
 .gallery-box{
