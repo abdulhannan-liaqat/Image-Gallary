@@ -88,7 +88,14 @@ height: 70px;
 
 
 
-@media(max-width:768px){
+@media(max-width:820px){
+
+
+body{
+    background-color: #fbd4f8ab;
+    align-items:first baseline
+}
+
 
 header{
     text-align: center;
@@ -106,15 +113,12 @@ border-radius:12px;
 height: 300px;
 margin-top: 5px;
 }
-/* .card:hover{
-    background-color: #e3baba;
-} */
 
 .card-title{
-    margin-top: 6px;
+    margin-top: 10px;
 }
 .card:hover{
-    background-color: #0a974cc8;
+    background-color: #ccc8f8c8;
     
 }
 
